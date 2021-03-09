@@ -62,16 +62,8 @@ DEFAULT_LOGS_DIR = os.path.join(ROOT_DIR, "logs")
 #  Configurations
 ############################################################
 
-category = 'food'
-class_names = ['bread-wholemeal', 'potatoes-steamed', 'broccoli', 'butter', 
-            'hard-cheese', 'water', 'banana', 'wine-white', 'bread-white', 
-            'apple', 'pizza-margherita-baked', 'salad-leaf-salad-green', 
-            'zucchini', 'water-mineral', 'coffee-with-caffeine', 'avocado', 
-            'tomato', 'dark-chocolate', 'white-coffee-with-caffeine', 'egg', 
-            'mixed-salad-chopped-without-sauce', 'sweet-pepper', 'mixed-vegetables', 
-            'mayonnaise', 'rice', 'chips-french-fries', 'carrot', 'tomato-sauce', 
-            'cucumber', 'wine-red', 'cheese', 'strawberries', 'espresso-with-caffeine', 
-            'tea', 'chicken', 'jam', 'leaf-spinach', 'pasta-spaghetti', 'french-beans', 'bread-whole-wheat']
+category = 'parts'
+class_names = ['m4x15','m4x17','m4x25','m4x30','m4x75']
 
 class CustomConfig(Config):
     """Configuration for training on the toy  dataset.
